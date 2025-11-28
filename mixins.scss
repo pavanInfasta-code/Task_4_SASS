@@ -1,0 +1,57 @@
+
+
+@mixin buttons{
+        padding: 15px 25px;
+        background-color: $secondary;
+        font-size: 14px;
+        color: #ffff;
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.5s ease;
+        box-shadow: 1px 1px 20px #21b5c96d;
+
+        &:hover{
+            background-color:#21b5c998;
+            transform: scale(1.1);
+
+        }
+    }
+
+
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin center{
+    margin: 0 auto;
+}
+
+@mixin head{
+   font-size: 36px;
+   line-height: 45px;
+   font-weight: 700;
+   text-align: center;
+   color: $text;
+
+}
+@mixin sub-head{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c757d;
+    text-align: center;
+}
+
+@mixin card{
+     display: flex;
+    flex: 0 0 calc(100%/6 - 40px );
+    gap: 20px;
+    border: 1px solid #0612241A;
+    padding: 20px;
+    border-radius: 12px;
+
+    
+}
+

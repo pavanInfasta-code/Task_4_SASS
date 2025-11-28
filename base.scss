@@ -1,0 +1,38 @@
+
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  contain: content;
+  font-style: normal;
+}
+
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header{
+    background-color: $primary;
+}
+
+
+
+.hero-section{
+    background:url(assets/hero/hero.svg) center top;
+    background-repeat:no-repeat ;
+    background-color: $primary;
+      padding: 150px 0px;
+}
